@@ -1,7 +1,7 @@
 # Thing Description Editor Prototype
 
-A lightweight prototype editor for **Web of Things Thing Descriptions (TD)** built using **Monaco Editor**.
-This project was created to explore the architecture and editing concepts used in WoT tooling such as EdiTDor.
+A lightweight web-based JSON editor built using Monaco Editor.
+This project demonstrates how structured device descriptions can be edited, validated, and visualized directly in the browser.
 
 ## Live Demo
 
@@ -11,35 +11,25 @@ https://dazzling-biscotti-c48c41.netlify.app/
 
 ## Overview
 
-This prototype demonstrates how a modern developer tool can be built using Monaco Editor to edit and validate Thing Description JSON files.
+This prototype implements a browser-based code editor designed for editing structured JSON documents that describe devices and their capabilities.
 
-It includes basic features such as:
-
-* JSON editing using Monaco Editor
-* Thing Description schema validation
-* Autocomplete suggestions for TD fields
-* Live preview of device structure
-* JSON formatting
-* Download/export functionality
-* Light and dark theme switching
-
-The project is designed as a learning prototype to understand the structure of WoT editing tools and how editors like EdiTDor integrate Monaco for JSON editing and validation.
+The application combines a Monaco-powered editor with validation, autocomplete suggestions, and a visual preview panel that interprets the JSON structure.
 
 ---
 
 ## Features
 
-### Monaco-based JSON Editor
+### Monaco-Based Code Editor
 
-A powerful in-browser editor powered by Monaco Editor, the same editor used in VS Code.
+A powerful in-browser editor powered by Monaco Editor (the same editor engine used in Visual Studio Code).
 
-### Thing Description Schema Validation
+### JSON Schema Validation
 
-Basic schema validation ensures required TD fields are present and JSON structure is correct.
+Basic schema validation ensures the document structure is correct and required fields are present.
 
 ### Autocomplete Suggestions
 
-Suggestions for common TD fields including:
+The editor provides suggestions for common fields such as:
 
 * title
 * properties
@@ -48,19 +38,19 @@ Suggestions for common TD fields including:
 
 ### Live Preview Panel
 
-The preview panel parses the JSON and displays device information in a simplified human-readable format.
+The preview panel parses the JSON content and displays a simplified representation of the device structure.
 
 ### JSON Formatting
 
-Automatically format the JSON document using Monaco formatting capabilities.
+Automatically format the document using built-in Monaco formatting capabilities.
 
-### Download Functionality
+### Download / Export
 
-Export the Thing Description JSON file directly from the editor.
+Download the current JSON document as a file.
 
 ### Theme Switching
 
-Switch between light and dark themes.
+Switch between light and dark editor themes.
 
 ---
 
@@ -86,15 +76,15 @@ td-editor-prototype
 
 ---
 
-## How to Run Locally
+## Running the Project Locally
 
 Clone the repository:
 
 ```
-git clone https://github.com/Pranav-0440/td-editor-prototype.git
+git clone https://github.com/YOUR_USERNAME/td-editor-prototype.git
 ```
 
-Navigate into the folder:
+Navigate into the project directory:
 
 ```
 cd td-editor-prototype
@@ -111,16 +101,5 @@ Then open:
 ```
 http://127.0.0.1:8080
 ```
-
----
-
-## Motivation
-
-This project was created as a learning prototype to better understand:
-
-* Monaco Editor integration
-* JSON schema validation
-* editor architecture used in Web of Things tooling
-* developer tooling for Thing Descriptions
 
 ---
