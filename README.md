@@ -81,7 +81,7 @@ td-editor-prototype
 Clone the repository:
 
 ```
-git clone https://github.com/YOUR_USERNAME/td-editor-prototype.git
+git clone https://github.com/Pranav-0440/td-editor-prototype.git
 ```
 
 Navigate into the project directory:
