@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Thing Description Editor Prototype</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Thing Description Editor</h1>
+
+<div class="toolbar">
+  <button onclick="formatJSON()">Format</button>
+  <button onclick="downloadJSON()">Download</button>
+  <button onclick="setLight()">Light</button>
+  <button onclick="setDark()">Dark</button>
+</div>
+
+<div class="container">
+
+  <div class="editor-panel">
+    <div id="editor"></div>
+  </div>
+
+  <div class="preview-panel">
+    <h3>Preview</h3>
+    <pre id="previewContent"></pre>
+  </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.44.0/min/vs/loader.js"></script>
+
+<script src="tdSchema.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
